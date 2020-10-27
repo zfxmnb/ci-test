@@ -1,0 +1,45 @@
+language: node_js
+
+node_js:
+  - 12.19.0
+
+cache: yarn
+
+notifications:      # 邮箱通知
+  email: 664127999@qq.com
+
+#指定构建分支
+branches:
+  only:
+    - master
+
+before_install:
+  - git pull
+  - echo "Checkout 🛎️"
+
+install: 
+  - yarn install
+  - echo "Install 🔧"
+
+script:
+  - npm build
+  - echo "Build 🔧"
+
+#把 dist 文件推送到 github gh-page 分支下
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  keep_history: true
+  target_branch: gh-page
+  committer_from_gh: true
+  on:
+    branch: master
+  local_dir: build
+
+  
+after_deploy: 
+  - echo "Deploy 🚀"
+
+after_success:
+  - echo 'successfully done'
