@@ -18,16 +18,16 @@ before_install:
   - echo "Checkout 🛎️"
 
 install: 
-  - yarn install
+  - yarn
   - echo "Install 🔧"
 
 script:
-  - npm build
+  - yarn build
   - echo "Build 🔧"
 
 #把 dist 文件推送到 github gh-page 分支下
 deploy:
-  provider: pages
+  provider: releases
   skip_cleanup: true
   github_token: $GH_TOKEN
   keep_history: true
@@ -37,7 +37,6 @@ deploy:
     branch: master
   local_dir: build
 
-  
 after_deploy: 
   - echo "Deploy 🚀"
 
