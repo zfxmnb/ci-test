@@ -24,9 +24,10 @@ install:
   - echo "Install 🔧"
 
 script:
+  - echo "Codecov 🔧"
   - yarn codecov
-  - yarn build
   - echo "Build 🔧"
+  - yarn build
 
 #把 dist 文件推送到 github gh-page 分支下
 deploy:
