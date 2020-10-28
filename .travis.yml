@@ -24,6 +24,7 @@ install:
   - echo "Install 🔧"
 
 script:
+  - yarn codecov
   - yarn build
   - echo "Build 🔧"
 
