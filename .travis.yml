@@ -34,6 +34,7 @@ script:
 deploy:
   provider: pages
   cleanup: false
+  skip_cleanup: true
   github_token: $GH_TOKEN
   keep_history: true
   target_branch: gh-page
