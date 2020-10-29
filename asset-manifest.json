@@ -5,18 +5,18 @@
     "main.js.map": "/ci-test/static/js/main.4dbfdab9.chunk.js.map",
     "runtime-main.js": "/ci-test/static/js/runtime-main.e2606146.js",
     "runtime-main.js.map": "/ci-test/static/js/runtime-main.e2606146.js.map",
-    "static/js/2.20891b98.chunk.js": "/ci-test/static/js/2.20891b98.chunk.js",
-    "static/js/2.20891b98.chunk.js.map": "/ci-test/static/js/2.20891b98.chunk.js.map",
+    "static/js/2.fe60a30b.chunk.js": "/ci-test/static/js/2.fe60a30b.chunk.js",
+    "static/js/2.fe60a30b.chunk.js.map": "/ci-test/static/js/2.fe60a30b.chunk.js.map",
     "index.html": "/ci-test/index.html",
-    "precache-manifest.ca3fbbec4c99ebdc1f44d58830661a69.js": "/ci-test/precache-manifest.ca3fbbec4c99ebdc1f44d58830661a69.js",
+    "precache-manifest.1190b73f1027c255cd0e034cd6d4da49.js": "/ci-test/precache-manifest.1190b73f1027c255cd0e034cd6d4da49.js",
     "service-worker.js": "/ci-test/service-worker.js",
     "static/css/main.b41928ae.chunk.css.map": "/ci-test/static/css/main.b41928ae.chunk.css.map",
-    "static/js/2.20891b98.chunk.js.LICENSE.txt": "/ci-test/static/js/2.20891b98.chunk.js.LICENSE.txt",
+    "static/js/2.fe60a30b.chunk.js.LICENSE.txt": "/ci-test/static/js/2.fe60a30b.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/ci-test/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e2606146.js",
-    "static/js/2.20891b98.chunk.js",
+    "static/js/2.fe60a30b.chunk.js",
     "static/css/main.b41928ae.chunk.css",
     "static/js/main.4dbfdab9.chunk.js"
   ]
